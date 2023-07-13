@@ -124,7 +124,7 @@ void test(std::string& result, std::vector<int>& p1_value, std::vector<int>& p2_
 //
 // 자바스크립트의 String 객체를 반환하는 함수입니다.
 // 파라미터는 info[n] 형태로 얻어올 수 있습니다.
-Napi::String SayHi(const Napi::CallbackInfo& info) {
+Napi::String Simulate(const Napi::CallbackInfo& info) {
   //
   // info에는 현재 스코프 정보(env)도 들어있습니다.
   // 자바스크립트 객체를 생성하려면 반드시 이것부터 가져와야합니다.
@@ -171,7 +171,7 @@ Napi::String SayHi(const Napi::CallbackInfo& info) {
 Napi::Object init(Napi::Env env, Napi::Object exports) {
     //
     // 위의 함수를 "sayHi"라는 이름으로 집어넣습니다.
-    exports.Set(Napi::String::New(env, "sayHi"), Napi::Function::New(env, SayHi));
+    exports.Set(Napi::String::New(env, "Simulate"), Napi::Function::New(env, Simulate));
 
     //
     // 다 집어넣었다면 반환합니다.
@@ -180,4 +180,4 @@ Napi::Object init(Napi::Env env, Napi::Object exports) {
 
 //
 // 애드온의 별명과, 이니셜라이져를 인자로 받습니다.
-NODE_API_MODULE(hello_world, init);
+NODE_API_MODULE(combat_simul, init);

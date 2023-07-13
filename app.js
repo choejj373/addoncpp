@@ -62,9 +62,9 @@ const data2 = [
 
 const arrByArray1 = new Uint32Array( data1 );
 const arrByArray2 = new Uint32Array( data2 );
-const addon = require('./build/release/hello_world');
+const addon = require('./build/release/combat_simul');
 const startTime = Date.now();
-const str = addon.sayHi( arrByArray1, arrByArray2 );
+const str = addon.Simulate( arrByArray1, arrByArray2 );
 const endTime = Date.now();
 
 console.log( str );

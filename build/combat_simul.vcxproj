@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4F7EBFC8-0DC5-4520-500D-2EE4D74F7B7F}</ProjectGuid>
+    <ProjectGuid>{252EBBBA-8A99-3284-1771-CFD2455DE70E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>hello_world</RootNamespace>
+    <RootNamespace>combat_simul</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -47,7 +47,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\simul\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\addoncpp\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus -std:c++17 %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -59,7 +59,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./hello_world;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./combat_simul;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <StringPooling>true</StringPooling>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -83,13 +83,13 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\simul\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./hello_world;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\addoncpp\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./combat_simul;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\simul\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\addoncpp\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus -std:c++17 %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -103,7 +103,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./hello_world;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./combat_simul;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
@@ -128,16 +128,16 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\simul\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./hello_world;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\include\node;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\src;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\config;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\openssl\openssl\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\uv\include;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\zlib;C:\Users\68718\AppData\Local\node-gyp\Cache\18.16.0\deps\v8\include;C:\choejj\project\nodejs\addoncpp\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=./combat_simul;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="..\binding.gyp"/>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\hello_world.cpp">
-      <ObjectFileName>$(IntDir)\hello_world.obj</ObjectFileName>
+    <ClCompile Include="..\combat_simul.cpp">
+      <ObjectFileName>$(IntDir)\combat_simul.obj</ObjectFileName>
     </ClCompile>
     <ClCompile Include="..\Object.cpp">
       <ObjectFileName>$(IntDir)\Object.obj</ObjectFileName>

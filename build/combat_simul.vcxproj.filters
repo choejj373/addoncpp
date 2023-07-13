@@ -51,7 +51,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\hello_world.cpp">
+    <ClCompile Include="..\combat_simul.cpp">
       <Filter>..</Filter>
     </ClCompile>
     <ClCompile Include="..\Object.cpp">
