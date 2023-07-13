@@ -10,7 +10,7 @@
       "target_name": "./combat_simul",
 
       # 여기서 타겟 소스파일을 지정합니다.
-      "sources": [ "combat_simul.cpp", "Object.cpp", "Party.cpp", "Skill.cpp", "command.cpp", "commandq.cpp" ],
+      "sources": [ "src/combat_simul.cpp", "src/Object.cpp", "src/Party.cpp", "src/Skill.cpp", "src/command.cpp", "src/commandq.cpp" ],
       'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ]
     }
   ]

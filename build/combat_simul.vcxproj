@@ -136,23 +136,23 @@
     <None Include="..\binding.gyp"/>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\combat_simul.cpp">
-      <ObjectFileName>$(IntDir)\combat_simul.obj</ObjectFileName>
+    <ClCompile Include="..\src\combat_simul.cpp">
+      <ObjectFileName>$(IntDir)\src\combat_simul.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\Object.cpp">
-      <ObjectFileName>$(IntDir)\Object.obj</ObjectFileName>
+    <ClCompile Include="..\src\Object.cpp">
+      <ObjectFileName>$(IntDir)\src\Object.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\Party.cpp">
-      <ObjectFileName>$(IntDir)\Party.obj</ObjectFileName>
+    <ClCompile Include="..\src\Party.cpp">
+      <ObjectFileName>$(IntDir)\src\Party.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\Skill.cpp">
-      <ObjectFileName>$(IntDir)\Skill.obj</ObjectFileName>
+    <ClCompile Include="..\src\Skill.cpp">
+      <ObjectFileName>$(IntDir)\src\Skill.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\command.cpp">
-      <ObjectFileName>$(IntDir)\command.obj</ObjectFileName>
+    <ClCompile Include="..\src\command.cpp">
+      <ObjectFileName>$(IntDir)\src\command.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\commandq.cpp">
-      <ObjectFileName>$(IntDir)\commandq.obj</ObjectFileName>
+    <ClCompile Include="..\src\commandq.cpp">
+      <ObjectFileName>$(IntDir)\src\commandq.obj</ObjectFileName>
     </ClCompile>
     <ClCompile Include="C:\Users\68718\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
   </ItemGroup>
